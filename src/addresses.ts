@@ -235,6 +235,28 @@ const BLAST_ADDRESSES: ChainAddresses = {
   swapRouter02Address: '0x549FEB8c9bd4c12Ad2AB27022dA12492aC452B66'
 }
 
+// Fraxtal mainnet
+const FRAXTAL_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '',
+  multicallAddress: '',
+  quoterAddress: '',
+  v3MigratorAddress: '',
+  nonfungiblePositionManagerAddress: '',
+  tickLensAddress: '',
+  swapRouter02Address: '',
+}
+
+// Fraxtal testnet
+const FRAXTAL_TESTNET_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0xdFAEEdcf4056bE588EA3574Fb1a59C2CEC8Af84B',
+  multicallAddress: '0x4aBB95711D53F537f7d01aF1890e6028Ec95a015',
+  quoterAddress: '0x12997c88CeA66DC815483A6975B6B3f2975Ba933',
+  v3MigratorAddress: '',
+  nonfungiblePositionManagerAddress: '0xa513E6E4b8f2a923D98304ec87F64353C4D5C853',
+  tickLensAddress: '0xCD9E7573668a6cfc90cb4B37345f5b4b2084c8aB',
+  swapRouter02Address: '0x1Ba9804f1E1C9460257FD0f4a6d6D63E5828B9CD',
+}
+
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
   [ChainId.OPTIMISM]: OPTIMISM_ADDRESSES,
@@ -256,7 +278,9 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.ZORA]: ZORA_ADDRESSES,
   [ChainId.ZORA_SEPOLIA]: ZORA_SEPOLIA_ADDRESSES,
   [ChainId.ROOTSTOCK]: ROOTSTOCK_ADDRESSES,
-  [ChainId.BLAST]: BLAST_ADDRESSES
+  [ChainId.BLAST]: BLAST_ADDRESSES,
+  [ChainId.FRAX]: FRAXTAL_ADDRESSES,
+  [ChainId.FRAX_TESTNET]: FRAXTAL_TESTNET_ADDRESSES
 }
 
 /* V3 Contract Addresses */
