@@ -343,3 +343,16 @@ export const SWAP_ROUTER_02_ADDRESSES = (chainId: number) => {
   }
   return ''
 }
+
+export const GET_INIT_HASH = (chainId: number) => {
+  if (SUPPORTED_CHAINS.includes(chainId)) {
+    const id = chainId as SupportedChainsType
+    if (id == ChainId.FRAX_TESTNET) {
+      return '0x6d6976ca3a84219d0f4e8fe447fed6c9bbb373bbcd63961bb9fefbc5e6dc6862'
+    }
+
+    // Default INIT_CODE_HASH of Uniswap V3 
+    return '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54'
+  }
+  return ''
+}
