@@ -212,7 +212,7 @@ const FRAXTAL_TESTNET_ADDRESSES: ChainAddresses = {
   multicallAddress: '0x4aBB95711D53F537f7d01aF1890e6028Ec95a015',
   quoterAddress: '0x12997c88CeA66DC815483A6975B6B3f2975Ba933',
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '0xa513E6E4b8f2a923D98304ec87F64353C4D5C853',
+  nonfungiblePositionManagerAddress: '0x5860D7FeBDd985BD3fb9e173FAD6fc088363c120',
   tickLensAddress: '0xCD9E7573668a6cfc90cb4B37345f5b4b2084c8aB',
   swapRouter02Address: '0x1Ba9804f1E1C9460257FD0f4a6d6D63E5828B9CD',
 }
