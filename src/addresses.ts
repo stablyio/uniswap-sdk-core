@@ -235,8 +235,8 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.AVALANCHE]: AVALANCHE_ADDRESSES,
   [ChainId.BASE]: BASE_ADDRESSES,
   [ChainId.BASE_GOERLI]: BASE_GOERLI_ADDRESSES,
-  [ChainId.FRAX]: FRAXTAL_ADDRESSES,
-  [ChainId.FRAX_TESTNET]: FRAXTAL_TESTNET_ADDRESSES
+  [ChainId.FRAXTAL]: FRAXTAL_ADDRESSES,
+  [ChainId.FRAXTAL_TESTNET]: FRAXTAL_TESTNET_ADDRESSES
 }
 
 /* V3 Contract Addresses */
@@ -347,7 +347,7 @@ export const SWAP_ROUTER_02_ADDRESSES = (chainId: number) => {
 export const GET_INIT_HASH = (chainId: number) => {
   if (SUPPORTED_CHAINS.includes(chainId)) {
     const id = chainId as SupportedChainsType
-    if (id == ChainId.FRAX_TESTNET) {
+    if (id == ChainId.FRAXTAL_TESTNET) {
       return '0x6d6976ca3a84219d0f4e8fe447fed6c9bbb373bbcd63961bb9fefbc5e6dc6862'
     }
 
