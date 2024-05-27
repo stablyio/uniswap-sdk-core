@@ -392,7 +392,7 @@ export const GET_INIT_HASH = (chainId: number) => {
   if (SUPPORTED_CHAINS.includes(chainId)) {
     const id = chainId as SupportedChainsType
     if (id == ChainId.FRAXTAL_TESTNET || id == ChainId.FRAXTAL) {
-      return '0x443a13b97a9354ff827c1abd8666efaba2b5fd2fd1bfceb98fe97064784b3d52'
+      return '0xeee17a48e7dd4fffcce4d79bb50f4f19fb4f3c03d3d7dacd6723eb17b1aef545'
     }
 
     // Default INIT_CODE_HASH of Uniswap V3 
