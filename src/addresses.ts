@@ -243,18 +243,18 @@ const FRAXTAL_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '',
   nonfungiblePositionManagerAddress: '',
   tickLensAddress: '',
-  swapRouter02Address: '',
+  swapRouter02Address: ''
 }
 
 // Fraxtal testnet
 const FRAXTAL_TESTNET_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0xc77F6B89d047d335dC1B703d131796338615512c',
-  multicallAddress: '0xd2728A6f67DE8219892339853E915e527e584E92',
-  quoterAddress: '0xEd40eA0e37668A740D114A15BD86a11F68140500',
+  v3CoreFactoryAddress: '0xbe820D6Bb6d06fcfB66264c53F77564802307F14',
+  multicallAddress: '0x1E99845826b9ae238B59F3e70eF93C3854F22b08',
+  quoterAddress: '0x41Bc9FCEFF89ab7f6508A22642024aB3d46983EE',
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '0xD558e8830aDa547E11f7e58963a141C0A458742D',
-  tickLensAddress: '0xD38cFCa7D214631928eAB51A5a0933A825450958',
-  swapRouter02Address: '0xA8D7C6808b9E4e61621df5Ed6E5D568Cd270b13F',
+  nonfungiblePositionManagerAddress: '0x319C1d6063Ef34D64535Cab3ae51EdA34929535E',
+  tickLensAddress: '0xb94a2c0BB3FC9a3b2747b830cAd7eEc67beb4BEb',
+  swapRouter02Address: '0x512a0fd4A89a6F49dbAB1cD79Ee3bCecbB20fE70'
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
@@ -395,7 +395,7 @@ export const GET_INIT_HASH = (chainId: number) => {
       return '0xeee17a48e7dd4fffcce4d79bb50f4f19fb4f3c03d3d7dacd6723eb17b1aef545'
     }
 
-    // Default INIT_CODE_HASH of Uniswap V3 
+    // Default INIT_CODE_HASH of Uniswap V3
     return '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54'
   }
   return ''
