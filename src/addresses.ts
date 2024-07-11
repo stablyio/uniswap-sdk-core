@@ -248,13 +248,13 @@ const FRAXTAL_ADDRESSES: ChainAddresses = {
 
 // Fraxtal testnet
 const FRAXTAL_TESTNET_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0xbe820D6Bb6d06fcfB66264c53F77564802307F14',
-  multicallAddress: '0x1E99845826b9ae238B59F3e70eF93C3854F22b08',
-  quoterAddress: '0x41Bc9FCEFF89ab7f6508A22642024aB3d46983EE',
+  v3CoreFactoryAddress: '0xf0BB46d7bB2e8cc6F7BB31d344aE7D365802529e',
+  multicallAddress: '0x594eDcAA94b0C36E5959563b0F3d6F7788a94397',
+  quoterAddress: '0xb07D1E420a3F26115c87ed869ebB2d506160B31f',
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '0x319C1d6063Ef34D64535Cab3ae51EdA34929535E',
-  tickLensAddress: '0xb94a2c0BB3FC9a3b2747b830cAd7eEc67beb4BEb',
-  swapRouter02Address: '0x512a0fd4A89a6F49dbAB1cD79Ee3bCecbB20fE70'
+  nonfungiblePositionManagerAddress: '0x7c5f589eEd2b2c85b3AC623B66781Ddd58E30234',
+  tickLensAddress: '0xc618a50eff6823864EfACc63e18dbD73cA67f1a9',
+  swapRouter02Address: '0x86fa24508003ee40FBC34385047b665c0Ec9DC55'
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
