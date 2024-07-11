@@ -27,7 +27,7 @@ export const UNI_ADDRESSES: AddressMap = constructSameAddressMap('0x1f9840a85d5a
   ChainId.ARBITRUM_ONE,
   ChainId.POLYGON,
   ChainId.POLYGON_MUMBAI,
-  ChainId.SEPOLIA,
+  ChainId.SEPOLIA
 ])
 
 export const UNISWAP_NFT_AIRDROP_CLAIM_ADDRESS = '0x8B799381ac40b838BBA4131ffB26197C432AFe78'
@@ -46,7 +46,7 @@ export const V2_FACTORY_ADDRESSES: AddressMap = {
   [ChainId.BASE]: '0x8909dc15e40173ff4699343b6eb8132c65e18ec6',
   [ChainId.BNB]: '0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6',
   [ChainId.POLYGON]: '0x9e5A52f57b3038F1B8EeE45F28b3C1967e22799C',
-  [ChainId.CELO]: '0x79a530c8e2fA8748B7B40dd3629C0520c2cCf03f',
+  [ChainId.CELO]: '0x79a530c8e2fA8748B7B40dd3629C0520c2cCf03f'
 }
 /**
  * @deprecated use V2_ROUTER_ADDRESSES instead
@@ -61,7 +61,7 @@ export const V2_ROUTER_ADDRESSES: AddressMap = {
   [ChainId.BASE]: '0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24',
   [ChainId.AVALANCHE]: '0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24',
   [ChainId.BNB]: '0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24',
-  [ChainId.POLYGON]: '0xedf6066a2b290c185783862c7f4776a2c8077ad1',
+  [ChainId.POLYGON]: '0xedf6066a2b290c185783862c7f4776a2c8077ad1'
 }
 
 // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
@@ -70,22 +70,22 @@ const DEFAULT_ADDRESSES: ChainAddresses = {
   multicallAddress: '0x1F98415757620B543A52E61c46B32eB19261F984',
   quoterAddress: '0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6',
   v3MigratorAddress: '0xA5644E29708357803b5A882D272c41cC0dF92B34',
-  nonfungiblePositionManagerAddress: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88',
+  nonfungiblePositionManagerAddress: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88'
 }
 const MAINNET_ADDRESSES: ChainAddresses = {
   ...DEFAULT_ADDRESSES,
-  v1MixedRouteQuoterAddress: '0x84E44095eeBfEC7793Cd7d5b57B7e401D7f1cA2E',
+  v1MixedRouteQuoterAddress: '0x84E44095eeBfEC7793Cd7d5b57B7e401D7f1cA2E'
 }
 const GOERLI_ADDRESSES: ChainAddresses = {
   ...DEFAULT_ADDRESSES,
-  v1MixedRouteQuoterAddress: '0xBa60b6e6fF25488308789E6e0A65D838be34194e',
+  v1MixedRouteQuoterAddress: '0xBa60b6e6fF25488308789E6e0A65D838be34194e'
 }
 
 const OPTIMISM_ADDRESSES: ChainAddresses = DEFAULT_ADDRESSES
 const ARBITRUM_ONE_ADDRESSES: ChainAddresses = {
   ...DEFAULT_ADDRESSES,
   multicallAddress: '0xadF885960B47eA2CD9B55E6DAc6B42b7Cb2806dB',
-  tickLensAddress: '0xbfd8137f7d1516D3ea5cA83523914859ec47F573',
+  tickLensAddress: '0xbfd8137f7d1516D3ea5cA83523914859ec47F573'
 }
 const POLYGON_ADDRESSES: ChainAddresses = DEFAULT_ADDRESSES
 
@@ -96,7 +96,7 @@ const CELO_ADDRESSES: ChainAddresses = {
   quoterAddress: '0x82825d0554fA07f7FC52Ab63c961F330fdEFa8E8',
   v3MigratorAddress: '0x3cFd4d48EDfDCC53D3f173F596f621064614C582',
   nonfungiblePositionManagerAddress: '0x3d79EdAaBC0EaB6F08ED885C05Fc0B014290D95A',
-  tickLensAddress: '0x5f115D9113F88e0a0Db1b5033D90D4a9690AcD3D',
+  tickLensAddress: '0x5f115D9113F88e0a0Db1b5033D90D4a9690AcD3D'
 }
 
 // BNB v3 addresses
@@ -107,7 +107,7 @@ const BNB_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0x32681814957e0C13117ddc0c2aba232b5c9e760f',
   nonfungiblePositionManagerAddress: '0x7b8A01B39D58278b5DE7e48c8449c9f4F5170613',
   tickLensAddress: '0xD9270014D396281579760619CCf4c3af0501A47C',
-  swapRouter02Address: '0xB971eF87ede563556b2ED4b1C0b0019111Dd85d2',
+  swapRouter02Address: '0xB971eF87ede563556b2ED4b1C0b0019111Dd85d2'
 }
 
 // optimism goerli addresses
@@ -117,7 +117,7 @@ const OPTIMISM_GOERLI_ADDRESSES: ChainAddresses = {
   quoterAddress: '0x9569CbA925c8ca2248772A9A4976A516743A246F',
   v3MigratorAddress: '0xf6c55fBe84B1C8c3283533c53F51bC32F5C7Aba8',
   nonfungiblePositionManagerAddress: '0x39Ca85Af2F383190cBf7d7c41ED9202D27426EF6',
-  tickLensAddress: '0xe6140Bd164b63E8BfCfc40D5dF952f83e171758e',
+  tickLensAddress: '0xe6140Bd164b63E8BfCfc40D5dF952f83e171758e'
 }
 
 // optimism sepolia addresses
@@ -128,7 +128,7 @@ const OPTIMISM_SEPOLIA_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0xE7EcbAAaA54D007A00dbb6c1d2f150066D69dA07',
   nonfungiblePositionManagerAddress: '0xdA75cEf1C93078e8b736FCA5D5a30adb97C8957d',
   tickLensAddress: '0xCb7f54747F58F8944973cea5b8f4ac2209BadDC5',
-  swapRouter02Address: '0x94cC0AaC535CCDB3C01d6787D6413C739ae12bc4',
+  swapRouter02Address: '0x94cC0AaC535CCDB3C01d6787D6413C739ae12bc4'
 }
 
 // arbitrum goerli v3 addresses
@@ -138,7 +138,7 @@ const ARBITRUM_GOERLI_ADDRESSES: ChainAddresses = {
   quoterAddress: '0x1dd92b83591781D0C6d98d07391eea4b9a6008FA',
   v3MigratorAddress: '0xA815919D2584Ac3F76ea9CB62E6Fd40a43BCe0C3',
   nonfungiblePositionManagerAddress: '0x622e4726a167799826d1E1D150b076A7725f5D81',
-  tickLensAddress: '0xb52429333da969a0C79a60930a4Bf0020E5D1DE8',
+  tickLensAddress: '0xb52429333da969a0C79a60930a4Bf0020E5D1DE8'
 }
 
 // arbitrum sepolia v3 addresses
@@ -149,7 +149,7 @@ const ARBITRUM_SEPOLIA_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0x398f43ef2c67B941147157DA1c5a868E906E043D',
   nonfungiblePositionManagerAddress: '0x6b2937Bde17889EDCf8fbD8dE31C3C2a70Bc4d65',
   tickLensAddress: '0x0fd18587734e5C2dcE2dccDcC7DD1EC89ba557d9',
-  swapRouter02Address: '0x101F443B4d1b059569D643917553c771E1b9663E',
+  swapRouter02Address: '0x101F443B4d1b059569D643917553c771E1b9663E'
 }
 
 // sepolia v3 addresses
@@ -160,7 +160,7 @@ const SEPOLIA_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0x729004182cF005CEC8Bd85df140094b6aCbe8b15',
   nonfungiblePositionManagerAddress: '0x1238536071E1c677A632429e3655c799b22cDA52',
   tickLensAddress: '0xd7f33bcdb21b359c8ee6f0251d30e94832baad07',
-  swapRouter02Address: '0x3bFA4769FB09eefC5a80d6E87c3B9C650f7Ae48E',
+  swapRouter02Address: '0x3bFA4769FB09eefC5a80d6E87c3B9C650f7Ae48E'
 }
 
 // Avalanche v3 addresses
@@ -171,7 +171,7 @@ const AVALANCHE_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0x44f5f1f5E452ea8d29C890E8F6e893fC0f1f0f97',
   nonfungiblePositionManagerAddress: '0x655C406EBFa14EE2006250925e54ec43AD184f8B',
   tickLensAddress: '0xEB9fFC8bf81b4fFd11fb6A63a6B0f098c6e21950',
-  swapRouter02Address: '0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE',
+  swapRouter02Address: '0xbb00FF08d01D300023C629E8fFfFcb65A5a578cE'
 }
 
 const BASE_ADDRESSES: ChainAddresses = {
@@ -181,7 +181,7 @@ const BASE_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0x23cF10b1ee3AdfCA73B0eF17C07F7577e7ACd2d7',
   nonfungiblePositionManagerAddress: '0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1',
   tickLensAddress: '0x0CdeE061c75D43c82520eD998C23ac2991c9ac6d',
-  swapRouter02Address: '0x2626664c2603336E57B271c5C0b26F421741e481',
+  swapRouter02Address: '0x2626664c2603336E57B271c5C0b26F421741e481'
 }
 
 // Base Goerli v3 addresses
@@ -192,7 +192,7 @@ const BASE_GOERLI_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '0x3efe5d02a04b7351D671Db7008ec6eBA9AD9e3aE',
   nonfungiblePositionManagerAddress: '0x3c61369ef0D1D2AFa70d8feC2F31C5D6Ce134F30',
   tickLensAddress: '0x1acB873Ee909D0c98adB18e4474943249F931b92',
-  swapRouter02Address: '0x8357227D4eDc78991Db6FDB9bD6ADE250536dE1d',
+  swapRouter02Address: '0x8357227D4eDc78991Db6FDB9bD6ADE250536dE1d'
 }
 
 // Fraxtal mainnet
@@ -203,18 +203,18 @@ const FRAXTAL_ADDRESSES: ChainAddresses = {
   v3MigratorAddress: '',
   nonfungiblePositionManagerAddress: '',
   tickLensAddress: '',
-  swapRouter02Address: '',
+  swapRouter02Address: ''
 }
 
 // Fraxtal testnet
 const FRAXTAL_TESTNET_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0xbe820D6Bb6d06fcfB66264c53F77564802307F14',
-  multicallAddress: '0x1E99845826b9ae238B59F3e70eF93C3854F22b08',
-  quoterAddress: '0x41Bc9FCEFF89ab7f6508A22642024aB3d46983EE',
+  v3CoreFactoryAddress: '0xf0BB46d7bB2e8cc6F7BB31d344aE7D365802529e',
+  multicallAddress: '0x594eDcAA94b0C36E5959563b0F3d6F7788a94397',
+  quoterAddress: '0xb07D1E420a3F26115c87ed869ebB2d506160B31f',
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '0x319C1d6063Ef34D64535Cab3ae51EdA34929535E',
-  tickLensAddress: '0xb94a2c0BB3FC9a3b2747b830cAd7eEc67beb4BEb',
-  swapRouter02Address: '0x512a0fd4A89a6F49dbAB1cD79Ee3bCecbB20fE70',
+  nonfungiblePositionManagerAddress: '0x7c5f589eEd2b2c85b3AC623B66781Ddd58E30234',
+  tickLensAddress: '0xc618a50eff6823864EfACc63e18dbD73cA67f1a9',
+  swapRouter02Address: '0x86fa24508003ee40FBC34385047b665c0Ec9DC55'
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
@@ -236,7 +236,7 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.BASE]: BASE_ADDRESSES,
   [ChainId.BASE_GOERLI]: BASE_GOERLI_ADDRESSES,
   [ChainId.FRAXTAL]: FRAXTAL_ADDRESSES,
-  [ChainId.FRAXTAL_TESTNET]: FRAXTAL_TESTNET_ADDRESSES,
+  [ChainId.FRAXTAL_TESTNET]: FRAXTAL_TESTNET_ADDRESSES
 }
 
 /* V3 Contract Addresses */
@@ -244,7 +244,7 @@ export const V3_CORE_FACTORY_ADDRESSES: AddressMap = {
   ...SUPPORTED_CHAINS.reduce<AddressMap>((memo, chainId) => {
     memo[chainId] = CHAIN_TO_ADDRESSES_MAP[chainId].v3CoreFactoryAddress
     return memo
-  }, {}),
+  }, {})
 }
 
 export const V3_MIGRATOR_ADDRESSES: AddressMap = {
@@ -254,14 +254,14 @@ export const V3_MIGRATOR_ADDRESSES: AddressMap = {
       memo[chainId] = v3MigratorAddress
     }
     return memo
-  }, {}),
+  }, {})
 }
 
 export const MULTICALL_ADDRESSES: AddressMap = {
   ...SUPPORTED_CHAINS.reduce<AddressMap>((memo, chainId) => {
     memo[chainId] = CHAIN_TO_ADDRESSES_MAP[chainId].multicallAddress
     return memo
-  }, {}),
+  }, {})
 }
 
 /**
@@ -274,30 +274,30 @@ export const GOVERNANCE_ALPHA_V0_ADDRESSES: AddressMap = constructSameAddressMap
  * The older V1 governance address
  */
 export const GOVERNANCE_ALPHA_V1_ADDRESSES: AddressMap = {
-  [ChainId.MAINNET]: '0xC4e172459f1E7939D522503B81AFAaC1014CE6F6',
+  [ChainId.MAINNET]: '0xC4e172459f1E7939D522503B81AFAaC1014CE6F6'
 }
 /**
  * The latest governor bravo that is currently admin of timelock
  */
 export const GOVERNANCE_BRAVO_ADDRESSES: AddressMap = {
-  [ChainId.MAINNET]: '0x408ED6354d4973f66138C91495F2f2FCbd8724C3',
+  [ChainId.MAINNET]: '0x408ED6354d4973f66138C91495F2f2FCbd8724C3'
 }
 
 export const TIMELOCK_ADDRESSES: AddressMap = constructSameAddressMap('0x1a9C8182C09F50C8318d769245beA52c32BE35BC')
 
 export const MERKLE_DISTRIBUTOR_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '0x090D4613473dEE047c3f2706764f49E0821D256e',
+  [ChainId.MAINNET]: '0x090D4613473dEE047c3f2706764f49E0821D256e'
 }
 
 export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '0xeca4B0bDBf7c55E9b7925919d03CbF8Dc82537E8',
+  [ChainId.MAINNET]: '0xeca4B0bDBf7c55E9b7925919d03CbF8Dc82537E8'
 }
 
 export const QUOTER_ADDRESSES: AddressMap = {
   ...SUPPORTED_CHAINS.reduce<AddressMap>((memo, chainId) => {
     memo[chainId] = CHAIN_TO_ADDRESSES_MAP[chainId].quoterAddress
     return memo
-  }, {}),
+  }, {})
 }
 
 export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = {
@@ -307,15 +307,15 @@ export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = {
       memo[chainId] = nonfungiblePositionManagerAddress
     }
     return memo
-  }, {}),
+  }, {})
 }
 
 export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
-  ...constructSameAddressMap('0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e'),
+  ...constructSameAddressMap('0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e')
 }
 
 export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
-  [ChainId.MAINNET]: '0x65770b5283117639760beA3F867b69b3697a91dd',
+  [ChainId.MAINNET]: '0x65770b5283117639760beA3F867b69b3697a91dd'
 }
 
 export const TICK_LENS_ADDRESSES: AddressMap = {
@@ -325,7 +325,7 @@ export const TICK_LENS_ADDRESSES: AddressMap = {
       memo[chainId] = tickLensAddress
     }
     return memo
-  }, {}),
+  }, {})
 }
 
 export const MIXED_ROUTE_QUOTER_V1_ADDRESSES: AddressMap = SUPPORTED_CHAINS.reduce<AddressMap>((memo, chainId) => {
